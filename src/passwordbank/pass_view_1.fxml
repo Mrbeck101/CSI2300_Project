@@ -7,7 +7,8 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.image.*?>
 
-<GridPane id="LoginPane" alignment="CENTER" hgap="10.0" vgap="10.0" maxHeight="600" maxWidth="450" prefHeight="600" prefWidth="450" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passwordbank.Main_Controller">
+
+<GridPane id="LoginPane" alignment="CENTER" hgap="10.0" vgap="10.0"  prefHeight="600" prefWidth="450" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passwordbank.Main_Controller">
     <children>        
         <ImageView GridPane.columnIndex="0" GridPane.rowIndex="0"
             GridPane.columnSpan="2">
@@ -20,7 +21,7 @@
             GridPane.columnIndex="0" GridPane.rowIndex="2"
             GridPane.columnSpan="2"/>
         <Label text="Password" GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="passwordLbl"/>
-        <TextField fx:id="password_text"
+        <PasswordField fx:id="password_text"
             GridPane.columnIndex="0" GridPane.rowIndex="4"
             GridPane.columnSpan="2"
             />
