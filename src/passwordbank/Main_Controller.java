@@ -16,15 +16,11 @@ import javafx.scene.control.Label;
  *
  * @author Jamar
  */
-public class pass_view_1Controller implements Initializable {
-    
-    @FXML
-    private Label label;
+public class Main_Controller implements Initializable {
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
-        label.setText("Hello World!");
     }
     
     @Override

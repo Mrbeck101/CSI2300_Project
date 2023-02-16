@@ -5,10 +5,27 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passwordbank.pass_view_1Controller">
-    <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+<GridPane id="LoginPane" alignment="CENTER" hgap="10.0" vgap="10.0" maxHeight="600" maxWidth="450" prefHeight="600" prefWidth="450" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passwordbank.Main_Controller">
+    <children>        
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="0"
+            GridPane.columnSpan="2">
+            <image>
+                <Image url="src/gainwell-logo.png" />
+            </image>
+        </ImageView>
+        <Label text="Email" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="usernameLbl"/>
+        <TextField fx:id="email_text"
+            GridPane.columnIndex="0" GridPane.rowIndex="2"
+            GridPane.columnSpan="2"/>
+        <Label text="Password" GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="passwordLbl"/>
+        <TextField fx:id="password_text"
+            GridPane.columnIndex="0" GridPane.rowIndex="4"
+            GridPane.columnSpan="2"
+            />
+        <Button text="Log In" onAction="#handleButtonAction" fx:id="button" 
+            GridPane.columnIndex="0" GridPane.rowIndex="5"
+            GridPane.columnSpan="2" alignment="center"/>
     </children>
-</AnchorPane>
+</GridPane>
