@@ -1,0 +1,30 @@
+{
+    "users": [
+        {    
+            "email": "jamarbeck@oakland.edu",
+            "password": "MrPotatoHead1226",
+            "SSH": "",
+            "user-type": "admin",
+            "stored-passwords": [
+                {
+                    "server-pass": "*}Eq_mqu&q;?",
+                    "portal-pass": "*W8689l:.10H",
+                    "report-pass": "#Oru0dOOE9+]"
+                }
+            ]
+        },
+        {
+            "email": "fakename@oakland.edu",
+            "password": "SwiggitySwag2319",
+            "SSH": "",
+            "user-type": "general",
+            "stored-passwords": [
+                {
+                    "server-pass": "*}Edfsdfs2342",
+                    "portal-pass": "sdfwe456334!",
+                    "report-pass": "dsSDKqsro43$"
+                }
+            ]  
+        }
+    ]
+}
